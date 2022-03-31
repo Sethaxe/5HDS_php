@@ -12,3 +12,4 @@ function reponse_json($success, $data, $msgErreur=NULL) {
     echo json_encode($data);
     echo $msgErreur;
 }
+?>
